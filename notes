@@ -1,1 +1,2 @@
-3
+## Level 20
+tar xf flag -I '/bin/sh -c "cat 1>&2"' 
